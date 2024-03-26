@@ -1,0 +1,58 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background{ 
+  background: #FFF;
+  width: 1400px;
+  height: 550px;
+  border-radius: 24px;
+  padding: 30px;
+  display: flex;
+}
+
+.card{
+  background: #01214a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 24px;
+}
+
+.name{
+  color:#01214a;
+  font-size: 30px;
+  font-weight: 20px;
+}
+
+.image{
+  border-radius: 100%;
+  box-shadow: 11px 19px 99px -21px rgba(8,4,45,0.75);
+}
+
+.left{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middle{
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.right{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
